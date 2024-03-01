@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/custom.css" />
+
+    <title>Inicio</title>
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav
+        class="navbar fixed-top navbar-expand-lg bg-black"
+        data-bs-theme="dark"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/logoWhite.ico" alt="Logo" class="fixed-logo" />
+            David Vazquez
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="index.html"
+                >
+                  Inicio
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="experiencia.html">
+                  Experiencia profesional
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Habilidades
+                </a>
+                <ul class="dropdown-menu">
+                  <li>
+                    <a class="dropdown-item" href="habilidadesT.html">
+                      Técnicas
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="habilidadesB.html">
+                      Blandas
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="portafolio.html">Portafolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid position-relative pos-down">
+      <!-- Carousel -->
+      <div class="without-margin" style="height: 450px">
+        <div
+          id="carouselExampleSlidesOnly"
+          class="carousel slide"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="img/lap-plu-code.jpg"
+                class="image-vertical-center"
+                alt=""
+              />
+            </div>
+            <div class="carousel-item">
+              <img src="img/code.jpg" class="image-vertical-center" alt="" />
+            </div>
+            <div class="carousel-item">
+              <img
+                src="img/lap-plus-camara.jpg"
+                class="image-vertical-center"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Text columns -->
+      <div class="position-absolute">
+        <div class="single-column principal-column col-12 col-md-4">
+          <h4>Gracias por visitar mi página web.</h4>
+          <h6>
+            Aquí encontrarás información sobre mi experiencia como desarrollador
+            de software y los proyectos en los que he trabajado.
+          </h6>
+        </div>
+        <div class="w-100 d-none d-md-block"></div>
+        <div class="single-column col-12 col-md-4">
+          <p>
+            Soy David Vázquez, un apasionado desarrollador de software con
+            habilidades destacadas en HTML, CSS, Bootstrap, JavaScript y Python.
+            Mi enfoque se centra en la creación de experiencias web dinámicas y
+            funcionales.
+          </p>
+        </div>
+        <div class="w-100 d-none d-md-block"></div>
+        <div class="single-column col-12 col-md-4">
+          <p>
+            Mi objetivo es, contribuir al mundo del desarrollo web, creando
+            soluciones innovadoras y participando en proyectos que desafíen mis
+            habilidades y amplíen mis conocimientos.
+          </p>
+        </div>
+        <div class="w-100 d-none d-md-block"></div>
+        <div class="single-column contact-button col-md-4">
+          <button class="btn btn-primary">Contacto</button>
+        </div>
+      </div>
+
+      <!-- Divison -->
+      <!-- <div class="division without-margin"></div> -->
+
+      <!-- Boton -->
+
+      <!-- Cards -->
+      <div
+        class="cards without-margin d-flex flex-row mb-3 justify-content-between"
+      >
+        <div class="card text-bg-dark" style="width: 18rem">
+          <img
+            src="img/paginas/dual-screen-1745705_640.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 1</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-info">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card text-bg-dark" style="width: 18rem">
+          <img
+            src="img/paginas/interface-3614766_640.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 2</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-info">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card text-bg-dark" style="width: 18rem">
+          <img
+            src="img/paginas/template-1599665_640.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 3</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-info">Go somewhere</a>
+          </div>
+        </div>
+
+        <div class="card text-bg-dark" style="width: 18rem">
+          <img
+            src="img/paginas/web-design-3411373_640.jpg"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Proyecto 4</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-info">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
