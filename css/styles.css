@@ -22,7 +22,9 @@
 
 /* Carousel styles */
 .carousel-principal {
-  height: 450px;
+  background-color: black;
+
+  height: 500px;
   width: 100%;
   overflow: hidden;
 
@@ -42,7 +44,7 @@
   background-color: transparent;
   z-index: 1;
   position: relative;
-  height: 450px;
+  height: 500px;
 
   padding: 20px;
   max-width: 400px;
@@ -62,14 +64,13 @@
 
 /* Text tools */
 .text-tool {
-  color: #e9ecef;
-  background-color: #212529;
+  background-color: #bdbdbd;
   padding: 20px;
 }
 
 /* Division styles */
 .division {
-  background-color: #212529;
+  background-color: #bdbdbd;
   width: 100%;
   padding: 30px;
   padding-top: 0px;
@@ -87,13 +88,13 @@
 /* Texto de proyectos destacados */
 .texto-destacado {
   color: #e9ecef;
-  background-color: #343a40;
+  background-color: #333333;
   padding: 20px;
 }
 
 /* Cards styles */
 .cards {
-  background-color: #343a40;
+  background-color: #333333;
   padding-left: 30px;
   padding-right: 30px;
 
@@ -102,7 +103,7 @@
 
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: stretch;
   flex-wrap: wrap;
 }
@@ -123,7 +124,7 @@
   }
 
   .carousel-item img {
-    height: 450px;
+    height: 500px;
     width: auto;
     margin: 0 auto;
     display: block;
@@ -161,6 +162,8 @@ $gray-700: #495057;
 $gray-800: #343a40;
 $gray-900: #212529;
 $black:    #000; 
+
+$orquidea-oscura: #9932CC;
 */
 
 /* 
