@@ -83,39 +83,27 @@
       </nav>
     </header>
 
-    <div class="container-fluid position-relative pos-down">
+    <!-- Carousel, text columns and button -->
+    <div class="home-container">
       <!-- Carousel -->
-      <div class="without-margin" style="height: 450px">
-        <div
-          id="carouselExampleSlidesOnly"
-          class="carousel slide"
-          data-bs-ride="carousel"
-        >
+      <div class="carousel-principal">
+        <div id="carousel-home" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img
-                src="img/lap-plu-code.jpg"
-                class="image-vertical-center"
-                alt=""
-              />
+              <img src="img/lap-plu-code.jpg" alt="" />
             </div>
             <div class="carousel-item">
-              <img src="img/code.jpg" class="image-vertical-center" alt="" />
+              <img src="img/code.jpg" alt="" />
             </div>
             <div class="carousel-item">
-              <img
-                src="img/lap-plus-camara.jpg"
-                class="image-vertical-center"
-                alt=""
-              />
+              <img src="img/lap-plus-camara.jpg" alt="" />
             </div>
           </div>
         </div>
       </div>
-
       <!-- Text columns -->
-      <div class="position-absolute">
-        <div class="single-column principal-column col-12 col-md-4">
+      <div class="text-columns col-12 col-md-4">
+        <div class="principal-column">
           <h4>Gracias por visitar mi página web.</h4>
           <h6>
             Aquí encontrarás información sobre mi experiencia como desarrollador
@@ -123,7 +111,7 @@
           </h6>
         </div>
         <div class="w-100 d-none d-md-block"></div>
-        <div class="single-column col-12 col-md-4">
+        <div class="single-column">
           <p>
             Soy David Vázquez, un apasionado desarrollador de software con
             habilidades destacadas en HTML, CSS, Bootstrap, JavaScript y Python.
@@ -132,94 +120,141 @@
           </p>
         </div>
         <div class="w-100 d-none d-md-block"></div>
-        <div class="single-column col-12 col-md-4">
+        <div class="single-column">
           <p>
             Mi objetivo es, contribuir al mundo del desarrollo web, creando
             soluciones innovadoras y participando en proyectos que desafíen mis
             habilidades y amplíen mis conocimientos.
           </p>
         </div>
+        <!-- Button -->
         <div class="w-100 d-none d-md-block"></div>
-        <div class="single-column contact-button col-md-4">
-          <button class="btn btn-primary">Contacto</button>
-        </div>
-      </div>
-
-      <!-- Divison -->
-      <!-- <div class="division without-margin"></div> -->
-
-      <!-- Boton -->
-
-      <!-- Cards -->
-      <div
-        class="cards without-margin d-flex flex-row mb-3 justify-content-between"
-      >
-        <div class="card text-bg-dark" style="width: 18rem">
-          <img
-            src="img/paginas/dual-screen-1745705_640.png"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Proyecto 1</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-info">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card text-bg-dark" style="width: 18rem">
-          <img
-            src="img/paginas/interface-3614766_640.png"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Proyecto 2</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-info">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card text-bg-dark" style="width: 18rem">
-          <img
-            src="img/paginas/template-1599665_640.png"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Proyecto 3</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-info">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card text-bg-dark" style="width: 18rem">
-          <img
-            src="img/paginas/web-design-3411373_640.jpg"
-            class="card-img-top"
-            alt="..."
-          />
-          <div class="card-body">
-            <h5 class="card-title">Proyecto 4</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
-            <a href="#" class="btn btn-info">Go somewhere</a>
-          </div>
+        <div class="text-center">
+          <button
+            class="carousel-btn btn btn-info"
+            onclick="redirectToContact()"
+          >
+            Contacto
+          </button>
         </div>
       </div>
     </div>
 
+    <!-- Tools -->
+    <div class="text-tool">
+      <h4>Tecnologías utilizadas en esta pagina</h4>
+    </div>
+
+    <!-- Divison -->
+    <div class="division">
+      <img class="tech-simbols" src="img/simbols/html5.png" alt="" />
+      <img class="tech-simbols" src="img/simbols/css3.png" alt="" />
+      <img class="tech-simbols" src="img/simbols/bootstrap.png" alt="" />
+      <img class="tech-simbols" src="img/simbols/sass.png" alt="" />
+      <img class="tech-simbols" src="img/simbols/javascript.png" alt="" />
+      <img class="tech-simbols" src="img/simbols/github.png" alt="" />
+    </div>
+
+    <!-- Text -->
+    <div class="texto-destacado">
+      <h4>Proyectos destacados</h4>
+    </div>
+
+    <!-- Cards -->
+    <div class="cards">
+      <div class="card text-bg-danger" style="width: 17rem">
+        <img
+          src="img/paginas/dual-screen-1745705_640.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Proyecto 1</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Visitar sitio</a>
+        </div>
+      </div>
+
+      <div class="card text-bg-danger" style="width: 17rem">
+        <img
+          src="img/paginas/website-3374825_640.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Proyecto 2</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Visitar sitio</a>
+        </div>
+      </div>
+
+      <div class="card text-bg-danger" style="width: 17rem">
+        <img
+          src="img/paginas/template-1599665_640.png"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Proyecto 3</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Visitar sitio</a>
+        </div>
+      </div>
+
+      <div class="card text-bg-danger" style="width: 17rem">
+        <img
+          src="img/paginas/web-design-3411373_640.jpg"
+          class="card-img-top"
+          alt="..."
+        />
+        <div class="card-body">
+          <h5 class="card-title">Proyecto 4</h5>
+          <p class="card-text">
+            Some quick example text to build on the card title and make up the
+            bulk of the card's content.
+          </p>
+          <a href="#" class="btn btn-primary">Visitar sitio</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-section">
+      <div>
+        <p>
+          &copy; 2024 José David Martínez Vázquez | Desarrollador Web | ✉️
+          <a href="mailto:david.martinez.vqz@gmail.com">
+            david.martinez.vqz@gmail.com
+          </a>
+          | ☎️ 5524094471 |
+          <a
+            href="https://www.linkedin.com/in/jos%C3%A9-david-mart%C3%ADnez-v%C3%A1zquez-255114b5/"
+            target="_blank"
+          >
+            LinkedIn
+          </a>
+        </p>
+      </div>
+      <div>
+        <p>
+          Transformando ideas en experiencias digitales impactantes.
+          Especializado en diseño web creativo, desarrollo ágil y soluciones
+          personalizadas.
+        </p>
+        <p>Vamos juntos a hacer realidad tu visión en la web.</p>
+      </div>
+    </footer>
+
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
