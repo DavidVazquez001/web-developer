@@ -45,32 +45,38 @@
   z-index: 1;
   position: relative;
   height: 500px;
+  width: 100%;
 
   padding: 20px;
-  max-width: 400px;
+  /* max-width: 400px; */
   margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .principal-column {
-  color: #e9ecef;
+  color: #f8f9fa;
   text-align: justify;
   font-weight: bold;
 }
 
 .single-column {
-  color: #adb5bd;
+  color: #dee2e6;
   text-align: justify;
 }
 
 /* Text tools */
 .text-tool {
-  background-color: #bdbdbd;
+  color: #212529;
+  background-color: #adb5bd;
   padding: 20px;
 }
 
 /* Division styles */
 .division {
-  background-color: #bdbdbd;
+  background-color: #adb5bd;
   width: 100%;
   padding: 30px;
   padding-top: 0px;
@@ -81,20 +87,20 @@
 }
 
 /* Tech simbols */
-.tech-simbols {
+.tech-logos {
   height: 120px;
 }
 
 /* Texto de proyectos destacados */
 .texto-destacado {
   color: #e9ecef;
-  background-color: #333333;
+  background-color: #212529;
   padding: 20px;
 }
 
 /* Cards styles */
-.cards {
-  background-color: #333333;
+.home-cards {
+  background-color: #212529;
   padding-left: 30px;
   padding-right: 30px;
 
@@ -108,13 +114,25 @@
   flex-wrap: wrap;
 }
 
-.card {
+.home-card {
   margin-bottom: 50px;
 }
 
 .card-body a.btn {
   margin: 0 auto;
   display: block;
+}
+
+/* Footer */
+.footer-section {
+  background-color: black;
+  padding: 30px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: center;
+  color: #6c757d;
 }
 
 /* Home Styles for smaller screens */
@@ -129,6 +147,294 @@
     margin: 0 auto;
     display: block;
   }
+
+  .single-column p,
+  .principal-column p {
+    font-size: medium;
+  }
+}
+
+/* No se ocupa */
+/*
+.contact-button {
+  text-align: center;
+  margin: 0;
+} */
+
+/* 
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000; 
+
+$orquidea-oscura: #9932CC;
+*/
+
+/* 
+#7f0000
+#ff0000 **
+#670f22
+#6a041a *
+#9a0526
+#ab022f
+#cd0c36 
+*/
+
+/* 
+Negro: #000000 (Color principal para fondos y elementos oscuros).
+Verde: #00FF00 (Color para botones u otros elementos destacados).
+Gris oscuro o grafito: #333333 o #555555 (Para fondos de tarjetas u otros elementos).
+Blanco o crema: #FFFFFF o #F9F9F9 (Para texto y fondos de tarjetas).
+Azul oscuro: #001F3F o #003366 (Opcional para detalles o destacar).
+Morado oscuro: #4B0082 o #330033 (Otra opción elegante para detalles).
+Rojo oscuro: #7f0000 o #990000 (Para detalles audaces). 
+*/
+
+/*******************************/
+/* Habilidades tecnicas styles */
+/*******************************/
+/* Imagen inicial */
+.intro-ht {
+  position: relative;
+  margin-top: 58px;
+
+  display: flex;
+  align-items: center;
+}
+
+.imagen-principal-ht {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+
+  position: absolute;
+  z-index: -1;
+}
+
+.img-ht {
+  width: 100%;
+}
+
+/* Texto de la imagen inicial */
+.txt-c-ht {
+  display: flex;
+  justify-content: center;
+}
+
+.sc-ht {
+  padding-bottom: 20px;
+}
+
+/* Knowledge-section */
+.knowledge-section {
+  min-height: 200px; /* Set a minimum height */
+}
+
+/* Languages section */
+.languages {
+  padding: 20px;
+  background-color: #212529;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.card-bg-white.card {
+  background-color: transparent;
+  border: 1px solid #adb5bd;
+}
+
+.card-bg-white.card img {
+  margin-top: 8px;
+}
+
+.card-bg-white.card .card-title {
+  color: #212529;
+  text-align: center;
+}
+
+/* Framework section */
+.frameworks {
+  display: flex;
+  flex-direction: column;
+}
+
+.framework {
+  /* background-color: #212529; */
+  background-color: #6c757d;
+  width: 100%;
+  padding: 30px;
+  padding-top: 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-bg-dark.card {
+  background-color: transparent;
+  border: 1px solid #212529;
+}
+
+.card-bg-dark.card img {
+  margin-top: 8px;
+}
+
+.card-bg-dark.card .card-title {
+  color: #dee2e6;
+  text-align: center;
+}
+
+@media (max-width: 767px) {
+  .imagen-principal-ht {
+    /*height: 100%; /* Set the height to 100% of the viewport height */
+    overflow: hidden;
+  }
+
+  .img-ht {
+    height: 100%; /* Set the height of the image to 100% */
+    width: auto;
+    /* margin: 0 auto; */
+  }
+
+  .framework {
+    justify-content: flex-start; /* Align items to the start of the container */
+  }
+}
+
+/***************/
+/* Home styles */
+/***************/
+
+/* Navbar styles */
+.navbar-brand {
+  padding: 0;
+}
+
+.fixed-logo {
+  height: 30px;
+  width: auto;
+}
+
+/* Home styles */
+.home-container {
+  position: relative;
+  margin-top: 58px;
+  display: flex;
+  align-items: center;
+}
+
+/* Carousel styles */
+.carousel-principal {
+  background-color: black;
+
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Text columns styles */
+.text-columns {
+  background-color: transparent;
+  z-index: 1;
+  position: relative;
+  height: 500px;
+  width: 100%;
+
+  padding: 20px;
+  /* max-width: 400px; */
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.principal-column {
+  color: #f8f9fa;
+  text-align: justify;
+  font-weight: bold;
+}
+
+.single-column {
+  color: #dee2e6;
+  text-align: justify;
+}
+
+/* Text tools */
+.text-tool {
+  color: #212529;
+  background-color: #adb5bd;
+  padding: 20px;
+}
+
+/* Division styles */
+.division {
+  background-color: #adb5bd;
+  width: 100%;
+  padding: 30px;
+  padding-top: 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Tech simbols */
+.tech-logos {
+  height: 120px;
+}
+
+/* Texto de proyectos destacados */
+.texto-destacado {
+  color: #e9ecef;
+  background-color: #212529;
+  padding: 20px;
+}
+
+/* Cards styles */
+.home-cards {
+  background-color: #212529;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  width: auto;
+  height: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  align-items: stretch;
+  flex-wrap: wrap;
+}
+
+.home-card {
+  margin-bottom: 50px;
+}
+
+.card-body a.btn {
+  margin: 0 auto;
+  display: block;
 }
 
 /* Footer */
@@ -185,3 +491,146 @@ Azul oscuro: #001F3F o #003366 (Opcional para detalles o destacar).
 Morado oscuro: #4B0082 o #330033 (Otra opción elegante para detalles).
 Rojo oscuro: #7f0000 o #990000 (Para detalles audaces). 
 */
+
+/*******************************/
+/* Habilidades tecnicas styles */
+/*******************************/
+/* Imagen inicial */
+.intro-ht {
+  position: relative;
+  margin-top: 58px;
+
+  display: flex;
+  align-items: center;
+}
+
+.imagen-principal-ht {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+
+  position: absolute;
+  z-index: -1;
+}
+
+.img-ht {
+  width: 100%;
+}
+
+/* Texto de la imagen inicial */
+.txt-c-ht {
+  display: flex;
+  justify-content: center;
+}
+
+.sc-ht {
+  padding-bottom: 20px;
+}
+
+/* Knowledge-section */
+.knowledge-section {
+  min-height: 200px; /* Set a minimum height */
+}
+
+/* Languages section */
+.languages {
+  padding: 20px;
+  background-color: #212529;
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.card-bg-white.card {
+  background-color: transparent;
+  border: 1px solid #adb5bd;
+}
+
+.card-bg-white.card img {
+  margin-top: 8px;
+}
+
+.card-bg-white.card .card-title {
+  color: #212529;
+  text-align: center;
+}
+
+/* Framework section */
+.frameworks {
+  display: flex;
+  flex-direction: row;
+}
+
+.fr-resp {
+  width: 100%;
+}
+
+.framework {
+  /* background-color: #212529; */
+  background-color: #6c757d;
+  width: 100%;
+  padding: 30px;
+  padding-top: 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.card-bg-dark.card {
+  background-color: transparent;
+  border: 1px solid #212529;
+}
+
+.card-bg-dark.card img {
+  margin-top: 8px;
+}
+
+.card-bg-dark.card .card-title {
+  color: #dee2e6;
+  text-align: center;
+}
+
+/* Home Styles for smaller screens */
+@media (max-width: 767px) {
+  .carousel-principal {
+    height: auto;
+  }
+
+  .carousel-item img {
+    height: 500px;
+    width: auto;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .single-column p,
+  .principal-column p {
+    font-size: medium;
+  }
+}
+
+/* Habilidades tecnicas for smaller screens */
+@media (max-width: 767px) {
+  .imagen-principal-ht {
+    /*height: 100%; /* Set the height to 100% of the viewport height */
+    overflow: hidden;
+  }
+
+  .img-ht {
+    height: 100%; /* Set the height of the image to 100% */
+    width: auto;
+    /* margin: 0 auto; */
+  }
+
+  .frameworks {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 768px) {
+}

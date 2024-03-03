@@ -15,13 +15,18 @@ $playfair: 'Playfair Display', serif;
 $nunito: 'Nunito', sans-serif;
 $roboto: 'Roboto', sans-serif;
 
+h1,
+h2,
+h3,
 h4,
+h5,
 h6 {
-  font-family: $playfair;
+  font-family: $roboto;
 }
 
 p {
   font-family: $nunito;
+  font-size: large;
 }
 
 // $primary: #00352f;
@@ -29,5 +34,15 @@ $primary: #1d438a;
 $warning: #705800;
 $info: #00594f;
 $danger: #5c0010;
+
+/* 
+#7f0000
+#ff0000 **
+#670f22
+#6a041a *
+#9a0526
+#ab022f
+#cd0c36 
+*/
 
 @import '../node_modules/bootstrap/scss/bootstrap';
