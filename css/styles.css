@@ -551,6 +551,8 @@ Rojo oscuro: #7f0000 o #990000 (Para detalles audaces).
 
 .card-bg-white.card img {
   margin-top: 8px;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 .card-bg-white.card .card-title {
@@ -587,16 +589,13 @@ Rojo oscuro: #7f0000 o #990000 (Para detalles audaces).
 
 .card-bg-dark.card img {
   margin-top: 8px;
+  max-width: 150px;
+  max-height: 150px;
 }
 
 .card-bg-dark.card .card-title {
   color: #dee2e6;
   text-align: center;
-}
-
-.card img {
-  max-width: 150px;
-  max-height: 150px;
 }
 
 /* Home Styles for smaller screens */
