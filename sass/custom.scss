@@ -29,11 +29,26 @@ p {
   font-size: large;
 }
 
-// $primary: #00352f;
 $primary: #1d438a;
 $warning: #705800;
 $info: #00594f;
 $danger: #5c0010;
+
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+/* 
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000; 
+*/
 
 /* 
 #7f0000
@@ -45,4 +60,12 @@ $danger: #5c0010;
 #cd0c36 
 */
 
-@import '../node_modules/bootstrap/scss/bootstrap';
+/* 
+Negro: #000000 (Color principal para fondos y elementos oscuros).
+Verde: #00FF00 (Color para botones u otros elementos destacados).
+Gris oscuro o grafito: #333333 o #555555 (Para fondos de tarjetas u otros elementos).
+Blanco o crema: #FFFFFF o #F9F9F9 (Para texto y fondos de tarjetas).
+Azul oscuro: #001F3F o #003366 (Opcional para detalles o destacar).
+Morado oscuro: #4B0082 o #330033 (Otra opción elegante para detalles).
+Rojo oscuro: #7f0000 o #990000 (Para detalles audaces). 
+*/

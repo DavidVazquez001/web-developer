@@ -22,15 +22,6 @@ p {
   font-size: large;
 }
 
-/* 
-#7f0000
-#ff0000 **
-#670f22
-#6a041a *
-#9a0526
-#ab022f
-#cd0c36 
-*/
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -11875,4 +11866,35 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-}/*# sourceMappingURL=custom.css.map */
+}
+/* 
+$white:    #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black:    #000; 
+*/
+/* 
+#7f0000
+#ff0000 **
+#670f22
+#6a041a *
+#9a0526
+#ab022f
+#cd0c36 
+*/
+/* 
+Negro: #000000 (Color principal para fondos y elementos oscuros).
+Verde: #00FF00 (Color para botones u otros elementos destacados).
+Gris oscuro o grafito: #333333 o #555555 (Para fondos de tarjetas u otros elementos).
+Blanco o crema: #FFFFFF o #F9F9F9 (Para texto y fondos de tarjetas).
+Azul oscuro: #001F3F o #003366 (Opcional para detalles o destacar).
+Morado oscuro: #4B0082 o #330033 (Otra opción elegante para detalles).
+Rojo oscuro: #7f0000 o #990000 (Para detalles audaces). 
+*//*# sourceMappingURL=custom.css.map */
