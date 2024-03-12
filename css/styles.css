@@ -265,6 +265,14 @@
 /******************/
 /* Contact styles */
 /******************/
+.principal-container {
+  position: relative;
+  /* margin-top: 58px; */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 /* Img section */
 .img-contact {
   width: 100%;
@@ -276,13 +284,31 @@
 }
 
 .container-img-cont {
-  height: 100vh;
+  /* height: 100vh; */
+  flex: 1;
   display: flex;
   justify-content: flex-end;
   align-items: center;
 
   position: relative;
   z-index: 1;
+}
+
+.container-img-cont .card {
+  /* max-width: 40rem; */
+  margin-top: 58px;
+  width: 40%;
+}
+
+/* Footer */
+.container-img-cont .footer-section {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
 .contact-list {
@@ -351,6 +377,11 @@
   .databases.frameworks {
     width: 100%;
     flex-wrap: nowrap;
+  }
+
+  .container-img-cont .card {
+    /* max-width: 40rem; */
+    width: 100%;
   }
 }
 

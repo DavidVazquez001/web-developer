@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <link rel="stylesheet" href="css/styles.css" />
-    <link rel="stylesheet" href="css/custom.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="../css/custom.css" />
 
     <title>Habilidades técnicas</title>
   </head>
@@ -17,8 +17,8 @@
         data-bs-theme="dark"
       >
         <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="img/logoWhite.ico" alt="Logo" class="fixed-logo" />
+          <a class="navbar-brand" href="../index.html">
+            <img src="../img/logoWhite.ico" alt="Logo" class="fixed-logo" />
             David Vazquez
           </a>
           <button
@@ -35,12 +35,12 @@
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="index.html">
+                <a class="nav-link" aria-current="page" href="../index.html">
                   Inicio
                 </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="experiencia.html">
+                <a class="nav-link" href="./experiencia.html">
                   Experiencia profesional
                 </a>
               </li>
@@ -56,22 +56,22 @@
                 </a>
                 <ul class="dropdown-menu">
                   <li>
-                    <a class="dropdown-item" href="habilidadesT.html">
+                    <a class="dropdown-item active" href="./habilidadesT.html">
                       Técnicas
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="habilidadesB.html">
+                    <a class="dropdown-item" href="./habilidadesB.html">
                       Blandas
                     </a>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="portafolio.html">Portafolio</a>
+                <a class="nav-link" href="./portafolio.html">Portafolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contacto.html">Contacto</a>
+                <a class="nav-link" href="./contacto.html">Contacto</a>
               </li>
             </ul>
           </div>
@@ -83,7 +83,7 @@
     <div class="intro-ht">
       <!-- Imagen -->
       <div class="imagen-principal-ht">
-        <img class="img-ht" src="img/pencil-925027_1920.jpg" alt="" />
+        <img class="img-ht" src="../img/pencil-925027_1920.jpg" alt="" />
       </div>
 
       <!-- Text columns -->
@@ -112,12 +112,11 @@
         <!-- Button -->
         <!-- <div class="w-100 d-none d-md-block"></div> -->
         <div class="text-center">
-          <button
-            class="carousel-btn btn btn-danger"
-            onclick="redirectToContact()"
-          >
-            Contacto
-          </button>
+          <div class="text-center">
+            <a class="carousel-btn btn btn-info" href="./contacto.html">
+              Contacto
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -131,20 +130,20 @@
         </div>
         <div class="division">
           <div class="card-bg-white card" style="width: 10rem">
-            <img src="img/logos/html5.png" class="card-img-top" alt="..." />
+            <img src="../img/logos/html5.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="card-title">Html 5</h5>
             </div>
           </div>
           <div class="card-bg-white card" style="width: 10rem">
-            <img src="img/logos/css3.png" class="card-img-top" alt="..." />
+            <img src="../img/logos/css3.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="ht-card-title card-title">Css 3</h5>
             </div>
           </div>
           <div class="card-bg-white card" style="width: 10rem">
             <img
-              src="img/logos/javascript.png"
+              src="../img/logos/javascript.png"
               class="card-img-top"
               alt="..."
             />
@@ -153,14 +152,14 @@
             </div>
           </div>
           <div class="card-bg-white card" style="width: 10rem">
-            <img src="img/logos/python.png" class="card-img-top" alt="..." />
+            <img src="../img/logos/python.png" class="card-img-top" alt="..." />
             <div class="card-body">
               <h5 class="ht-card-title card-title">Python</h5>
             </div>
           </div>
           <div class="card-bg-white card" style="width: 10rem">
             <img
-              src="img/logos/sql-database-generic.png"
+              src="../img/logos/sql-database-generic.png"
               class="card-img-top"
               alt="..."
             />
@@ -179,14 +178,18 @@
           </div>
           <div class="framework">
             <div class="card-bg-dark card" style="width: 10rem">
-              <img src="img/logos/react.png" class="card-img-top" alt="..." />
+              <img
+                src="../img/logos/react.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">React.js</h5>
               </div>
             </div>
             <div class="card-bg-dark card" style="width: 10rem">
               <img
-                src="img/logos/bootstrap.png"
+                src="../img/logos/bootstrap.png"
                 class="card-img-top"
                 alt="..."
               />
@@ -195,7 +198,7 @@
               </div>
             </div>
             <div class="card-bg-dark card" style="width: 10rem">
-              <img src="img/logos/sass.png" class="card-img-top" alt="..." />
+              <img src="../img/logos/sass.png" class="card-img-top" alt="..." />
               <div class="card-body">
                 <h5 class="ht-card-title card-title">Sass</h5>
               </div>
@@ -209,20 +212,28 @@
           </div>
           <div class="framework">
             <div class="card-bg-dark card" style="width: 10rem">
-              <img src="img/logos/nodejs.png" class="card-img-top" alt="..." />
+              <img
+                src="../img/logos/nodejs.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">Node.js</h5>
               </div>
             </div>
             <div class="card-bg-dark card" style="width: 10rem">
-              <img src="img/logos/express.png" class="card-img-top" alt="..." />
+              <img
+                src="../img/logos/express.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="ht-card-title card-title">Express.js</h5>
               </div>
             </div>
             <div class="card-bg-dark card" style="width: 10rem">
               <img
-                src="img/logos/django.png"
+                src="../img/logos/django.png"
                 class="card-img-top"
                 alt="..."
                 style="width: 8rem"
@@ -244,14 +255,18 @@
             </div>
             <div class="database">
               <div class="card-bg-white card" style="width: 10rem">
-                <img src="img/logos/mysql.png" class="card-img-top" alt="..." />
+                <img
+                  src="../img/logos/mysql.png"
+                  class="card-img-top"
+                  alt="..."
+                />
                 <div class="card-body">
                   <h5 class="card-title">MySQL</h5>
                 </div>
               </div>
               <div class="card-bg-white card" style="width: 10rem">
                 <img
-                  src="img/logos/postgresql.png"
+                  src="../img/logos/postgresql.png"
                   class="card-img-top"
                   alt="..."
                 />
@@ -261,7 +276,7 @@
               </div>
               <div class="card-bg-white card" style="width: 10rem">
                 <img
-                  src="img/logos/mongodb.png"
+                  src="../img/logos/mongodb.png"
                   class="card-img-top"
                   alt="..."
                 />
@@ -280,7 +295,11 @@
             </div>
             <!-- <div class="division"> -->
             <div class="card-bg-white card" style="width: 10rem">
-              <img src="img/logos/github.png" class="card-img-top" alt="..." />
+              <img
+                src="../img/logos/github.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">GitHub</h5>
               </div>
@@ -294,7 +313,11 @@
             </div>
             <!-- <div class="division"> -->
             <div class="card-bg-white card" style="width: 10rem">
-              <img src="img/logos/vs-code.png" class="card-img-top" alt="..." />
+              <img
+                src="../img/logos/vs-code.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">VS Code</h5>
               </div>
@@ -308,7 +331,11 @@
             </div>
             <!-- <div class="division"> -->
             <div class="card-bg-white card" style="width: 10rem">
-              <img src="img/logos/postman.png" class="card-img-top" alt="..." />
+              <img
+                src="../img/logos/postman.png"
+                class="card-img-top"
+                alt="..."
+              />
               <div class="card-body">
                 <h5 class="card-title">Postman</h5>
               </div>
@@ -346,7 +373,7 @@
       </div>
     </footer>
 
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/script.js"></script>
   </body>
 </html>
