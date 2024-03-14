@@ -1,6 +1,6 @@
-/***************/
-/* Home styles */
-/***************/
+/********************************************/
+/**************** Home styles ***************/
+/********************************************/
 
 /* Navbar styles */
 .navbar-brand {
@@ -135,9 +135,9 @@
   color: #6c757d;
 }
 
-/*******************************/
-/* Habilidades tecnicas styles */
-/*******************************/
+/********************************************/
+/******** Habilidades tecnicas styles *******/
+/********************************************/
 /* Imagen inicial */
 .intro-ht {
   position: relative;
@@ -262,9 +262,9 @@
   flex-direction: column;
 }
 
-/******************/
-/* Contact styles */
-/******************/
+/********************************************/
+/************** Contact styles **************/
+/********************************************/
 .principal-container {
   position: relative;
   /* margin-top: 58px; */
@@ -318,6 +318,169 @@
 .contact-list .list-group-item,
 .contact-list .list-group-item a {
   color: white !important;
+}
+
+/********************************************/
+/********* Experiencia profesional **********/
+/********************************************/
+.without-margin {
+  margin: 0px;
+  padding: 0px;
+}
+
+.experience-container {
+  background-image: url('../img/stars-6353447_1920.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  color: white;
+}
+
+.personal-name {
+  padding-top: 100px;
+}
+
+.experience {
+  margin-bottom: 50px;
+}
+
+.about-me {
+  margin-top: 40px;
+}
+
+.education,
+.idioms,
+.profesional-experience {
+  margin-top: 40px;
+}
+
+.ipn,
+.kodemia,
+.english,
+.ntt-data,
+.pluxee {
+  margin-top: 30px;
+}
+
+ul.list-group li span {
+  font-weight: bold;
+}
+
+.profesional-experience .ntt-data ul.list-group {
+  border-left: 2px solid #1d438a;
+  padding-left: 10px;
+}
+
+.profesional-experience .pluxee ul.list-group {
+  border-left: 2px solid #00594f;
+  padding-left: 10px;
+}
+
+.list-group-item {
+  /* background-color: transparent !important; */
+  background-color: #e8e3d3 !important;
+  /* color: #dee2e6 !important; */
+}
+
+/********************************************/
+/*********** Habilidades blandas ************/
+/********************************************/
+.fondo-amarillo {
+  background-color: #fff0b3;
+}
+
+.hb-head-container {
+  background-color: #6c7a89;
+
+  background-image: url('../img/blandas/pizarron.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.hb-tittle {
+  padding-top: 98px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.hb-intro {
+  padding-left: 15% !important;
+  padding-right: 15% !important;
+
+  padding-bottom: 20px;
+}
+
+.hb-tittle,
+.hb-intro {
+  color: #f8f9fa;
+}
+
+.flexibilidad,
+.comunicacion {
+  padding: 30px;
+
+  text-align: center;
+  color: #333;
+}
+
+.flexibilidad {
+  background-color: #c7e5d0;
+}
+
+.comunicacion {
+  background-color: #aed6f1;
+}
+
+.teamwork,
+.autoaprendizaje,
+.resolucion,
+.proactividad,
+.empatia,
+.resiliencia {
+  text-align: center;
+  padding: 30px;
+  padding-left: 35px !important;
+  padding-right: 35px !important;
+
+  color: #f8f9fa;
+}
+
+.teamwork {
+  background-color: #673ab7;
+}
+
+.autoaprendizaje {
+  background-color: #00897b;
+}
+
+.resolucion {
+  background-color: #2c3e50;
+}
+
+.proactividad {
+  background-color: #4caf50;
+}
+
+.empatia {
+  background-color: #8e44ad;
+}
+
+.resiliencia {
+  background-color: #283593;
+}
+
+.img-soft-skills {
+  height: auto;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.img-comunication,
+.img-flexibility {
+  max-width: 20rem;
 }
 
 /********************************************/
