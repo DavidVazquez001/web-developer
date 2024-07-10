@@ -4,7 +4,7 @@ export default {
     theme: {
         extend: {
             backgroundImage: {
-                'custom-background': "url('src/assets/fondo-turquesa.jpg')",
+                'custom-background': "url('assets/fondo-turquesa.jpg')",
             },
         },
     },
