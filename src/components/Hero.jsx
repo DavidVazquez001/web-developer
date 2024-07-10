@@ -11,7 +11,7 @@ const Hero = () => {
                             José David Martínez Vázquez
                         </h1>
                         <span className="bg-gradient-to-r from-yellow-400 via-slate-500 to-rose-600 bg-clip-text text-4xl tracking-tight text-transparent">
-                            Full Stack Developer
+                            Full Stack Web Developer
                         </span>
                         <p className="my-2 max-w-xl py-6 font-light tracking-tighter">
                             {HERO_CONTENT}
