@@ -14,10 +14,11 @@ const Experience = () => {
                             key={index}
                             className="mb-16 flex flex-wrap justify-start"
                         >
-                            <div className="flex w-full flex-wrap justify-start space-x-10">
+                            <div className="flex w-full flex-wrap md:gap-8">
                                 <h3 className="text-2xl">
                                     {experience.company}
                                 </h3>
+
                                 <span className="text-2xl text-neutral-300">
                                     {experience.duration}
                                 </span>
@@ -28,18 +29,19 @@ const Experience = () => {
                                     key={`${index}-${roleIndex}`}
                                     className="mt-8 flex w-full flex-wrap"
                                 >
-                                    <div className="w-full text-neutral-300 lg:w-1/3">
+                                    <div className="w-full text-justify text-neutral-300 lg:w-1/3">
                                         {role.period}
                                     </div>
+
                                     <div className="w-full lg:w-2/3">
-                                        <div className="font-bold text-neutral-100">
+                                        <div className="text-justify font-bold text-neutral-100">
                                             {role.role}
                                         </div>
-                                        <div className="text-neutral-300">
+                                        <div className="text-justify text-neutral-300">
                                             {role.description}
                                         </div>
                                         {role.client && (
-                                            <div className="text-neutral-300">
+                                            <div className="text-justify text-neutral-300">
                                                 Cliente: {role.client}
                                             </div>
                                         )}

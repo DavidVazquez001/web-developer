@@ -11,7 +11,7 @@ const App = () => {
     return (
         <div className="selectionbg-cyan-300 overflow-x-hidden text-neutral-100 antialiased selection:text-purple-700">
             <div className="flixed top-0 -z-10 h-full w-full">
-                <div className="bg-custom-background fixed top-0 z-[-2] min-h-screen w-screen"></div>
+                <div className="fixed top-0 z-[-2] min-h-screen w-screen bg-custom-background"></div>
             </div>
 
             <div className="container mx-auto px-8">
@@ -22,9 +22,9 @@ const App = () => {
                     <Contact />
                     <About />
                     <Technologies />
-                    <SoftSkills />
                     <Experience />
                     <Practices />
+                    <SoftSkills />
                 </div>
             </div>
         </div>

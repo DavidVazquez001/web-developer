@@ -25,9 +25,11 @@ const Practices = () => {
                         </div>
 
                         <div className="mt-4 w-full lg:w-2/3">
-                            <h4 className="mb-2 font-bold">{practice.title}</h4>
+                            <h4 className="mb-2 text-justify font-bold">
+                                {practice.title}
+                            </h4>
 
-                            <p className="mb-4 text-neutral-300">
+                            <p className="mb-4 text-justify text-neutral-300">
                                 {practice.description}
                             </p>
 
