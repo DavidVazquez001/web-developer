@@ -44,7 +44,7 @@ const Navbar = () => {
             </div>
             <div className="flex items-center justify-center gap-4 text-2xl">
                 <a
-                    href="src/assets/cv/CV_Jose_David_Martinez_Vazquez.pdf"
+                    href="../assets/cv/CV_Jose_David_Martinez_Vazquez.pdf"
                     download
                 >
                     <FaRegFilePdf />
