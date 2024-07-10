@@ -3,6 +3,7 @@ import logo from '../assets/logoWhite.png';
 import { IoMdMail } from 'react-icons/io';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa';
+import { FaRegFilePdf } from 'react-icons/fa6';
 
 const Navbar = () => {
     const scrollToTop = () => {
@@ -42,6 +43,13 @@ const Navbar = () => {
                 />
             </div>
             <div className="flex items-center justify-center gap-4 text-2xl">
+                <a
+                    href="src/assets/cv/CV_Jose_David_Martinez_Vazquez.pdf"
+                    download
+                >
+                    <FaRegFilePdf />
+                </a>
+
                 <a href="#" onClick={openWhatsApp}>
                     <FaWhatsapp />
                 </a>
