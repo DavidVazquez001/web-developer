@@ -92,7 +92,7 @@ export const PROJECTS = [
 
 export const PRACTICES = [
     {
-        title: 'TODO LIST',
+        title: 'To Do List',
         image: todoList,
         description:
             'Una plataforma para crear una lista de tareas en donde cada tarea puede ser marcada como completada. La plataforma contiene filtros para poder visualizar únicamente las tareas que han sido completadas, las que aún no son completadas o mantener todas activas. También cuenta con un drap and drop para poder cambiar las tareas de posición. Finalmente cuenta con un dark and light mode para mayor comodidad el usuario.',
@@ -138,7 +138,7 @@ export const SOFTSKILLS = [
         detail: 'Capacidad para comprender y relacionarme con las emociones y perspectivas de los demás, promoviendo relaciones colaborativas y armoniosas.',
     },
     {
-        title: 'Resolución de problemas',
+        title: 'Solución de problemas',
         image: problems,
         detail: 'Habilidad para identificar y abordar eficazmente los desafíos, buscando soluciones creativas y pragmáticas para superar obstáculos.',
     },
