@@ -1,7 +1,6 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Projects from '../components/Projects';
-import Practices from '../components/Practices';
 
 const Portfolio = () => {
     return (
@@ -13,7 +12,7 @@ const Portfolio = () => {
             <div className="container mx-auto px-8">
                 <Navbar />
 
-                <div className="pt-[104px]">
+                <div className="pt-20">
                     <Projects />
                 </div>
             </div>

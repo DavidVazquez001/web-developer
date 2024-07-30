@@ -7,7 +7,7 @@ const Projects = () => {
 
     return (
         <div className="border-b border-neutral-400 py-12">
-            <div className="pt-8">
+            <div>
                 {PROJECTS.map((project, index) => (
                     <div key={index} className="flex flex-wrap justify-start">
                         <div className="flex w-full justify-center p-4 lg:w-1/3">

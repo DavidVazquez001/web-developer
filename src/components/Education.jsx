@@ -5,8 +5,8 @@ const Education = () => {
         <div className="border-b border-neutral-400 py-12">
             <h2 className="my-2 text-center text-4xl">Educación</h2>
 
-            <div className="flex flex-wrap space-x-8 pt-8 lg:flex-nowrap">
-                <div className="w-full space-y-4 lg:w-1/3">
+            <div className="flex flex-wrap space-y-12 pt-8 lg:flex-nowrap lg:space-x-8 lg:space-y-0">
+                <div className="w-full space-y-2 lg:w-1/3 lg:space-y-4">
                     <h3 className="text-xl font-bold">
                         Lic. En Ciencias de la Informática (titulado)
                     </h3>
@@ -18,7 +18,7 @@ const Education = () => {
                     <p>01/ago/2012 - 30/jun/2017</p>
                 </div>
 
-                <div className="w-full space-y-4 lg:w-1/3">
+                <div className="w-full space-y-2 lg:w-1/3 lg:space-y-4">
                     <h3 className="text-xl font-bold">
                         Inglés - CEFR, nivel B2
                     </h3>
@@ -30,7 +30,7 @@ const Education = () => {
                     <p>Celex UPIICSA - IPN</p>
                 </div>
 
-                <div className="w-full space-y-4 lg:w-1/3">
+                <div className="w-full space-y-2 lg:w-1/3 lg:space-y-4">
                     <h3 className="text-xl font-bold">
                         Full Stack JavaScript Web developer
                     </h3>
