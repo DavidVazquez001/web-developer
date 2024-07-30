@@ -13,7 +13,7 @@ import jf_aire_y_energia from '../assets/projects/jfaireyenergia_products.png';
 
 export const HERO_CONTENT = `Soy un apasionado desarrollador web y cuento con habilidades sólidas en desarrollo con tecnologías basadas en JavaScript. Mi enfoque se centra en la creación de aplicaciones web modernas y eficientes, con un énfasis en la usabilidad y la experiencia del usuario.`;
 
-export const ABOUT_TEXT = `Para la parte de front-end, manejo diversas herramientas como React.js, Next.js, Bootstrap y Tailwind. En el ámbito del back-end, trabajo con Node.js, específicamente utilizando el framework Express.js. Además, tengo experiencia en la gestión de bases de datos, incluyendo MongoDB, MySQL y PostgreSQL.
+export const ABOUT_TEXT = `Para la parte de front-end, manejo diversas herramientas como React.js, Bootstrap y Tailwind. En el ámbito del back-end, trabajo con Node.js, específicamente utilizando el framework Express.js. Además, tengo experiencia en la gestión de bases de datos, incluyendo MongoDB, MySQL y PostgreSQL.
 
 Cuento con habilidades bilingües que me permiten comunicarme efectivamente en inglés, facilitando la colaboración en entornos internacionales.
 
