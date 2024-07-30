@@ -2,7 +2,7 @@ import { EXPERIENCES } from '../constants';
 
 const Experience = () => {
     return (
-        <div className="border-b border-neutral-400 pb-4 pt-4">
+        <div className="border-b border-neutral-400 pt-12">
             <h2 className="pt-2 text-center text-4xl">
                 Experiencia profesional
             </h2>

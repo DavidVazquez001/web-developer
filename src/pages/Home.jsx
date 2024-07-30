@@ -1,14 +1,15 @@
-import About from './components/About';
-import Contact from './components/Contact';
-import Education from './components/Education';
-import Experience from './components/Experience';
-import Hero from './components/Hero';
-import Navbar from './components/Navbar';
-import Practices from './components/Practices';
-import SoftSkills from './components/SoftSkills';
-import Technologies from './components/Technologies';
+import React from 'react';
+import Navbar from '../components/Navbar';
+import Hero from '../components/Hero';
+import Contact from '../components/Contact';
+import About from '../components/About';
+import Education from '../components/Education';
+import Technologies from '../components/Technologies';
+import Experience from '../components/Experience';
+import Practices from '../components/Practices';
+import SoftSkills from '../components/SoftSkills';
 
-const App = () => {
+const Home = () => {
     return (
         <div className="selectionbg-cyan-300 overflow-x-hidden text-neutral-100 antialiased selection:text-yellow-300">
             <div className="flixed top-0 -z-10 h-full w-full">
@@ -33,4 +34,4 @@ const App = () => {
     );
 };
 
-export default App;
+export default Home;

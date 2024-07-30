@@ -15,10 +15,10 @@ import Icon from './Icon';
 
 const Technologies = () => {
     return (
-        <div className="border-b border-neutral-400 pb-4 pt-4">
+        <div className="border-b border-neutral-400 pb-12 pt-12">
             <h2 className="my-2 text-center text-4xl">Tecnologías</h2>
 
-            <div className="flex flex-wrap items-center justify-center gap-8 pb-8 pt-8">
+            <div className="flex flex-wrap items-center justify-center gap-8 pt-8">
                 <Icon
                     iconComponent={<RiHtml5Fill style={{ color: '#E34F26' }} />}
                     description="HTML5"
@@ -53,10 +53,10 @@ const Technologies = () => {
                     description="React.js"
                 />
 
-                <Icon
+                {/* <Icon
                     iconComponent={<SiNextdotjs style={{ color: '#000000' }} />}
                     description="Next.js"
-                />
+                /> */}
                 <Icon
                     iconComponent={
                         <RiNodejsFill style={{ color: '#339933' }} />

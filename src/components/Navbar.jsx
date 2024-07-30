@@ -3,11 +3,14 @@ import logo from '../assets/logoWhite.png';
 import { IoMdMail } from 'react-icons/io';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaWhatsapp } from 'react-icons/fa';
-import { FaRegFilePdf } from 'react-icons/fa6';
+import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
+    const navigate = useNavigate();
+
     const scrollToTop = () => {
         window.scrollTo({ top: 0, behavior: 'smooth' });
+        navigate('/');
     };
 
     const openMail = () => {
@@ -42,6 +45,13 @@ const Navbar = () => {
                     onClick={scrollToTop}
                 />
             </div>
+
+            <div>
+                <a className="text-3xl lg:text-5xl" href="/portafolio">
+                    Portafolio
+                </a>
+            </div>
+
             <div className="flex items-center justify-center gap-4 text-2xl">
                 <a href="#" onClick={openWhatsApp}>
                     <FaWhatsapp />

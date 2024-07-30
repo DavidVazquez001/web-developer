@@ -5,10 +5,10 @@ import { FaLocationDot } from 'react-icons/fa6';
 
 const Contact = () => {
     return (
-        <div className="border-b border-neutral-400 pb-4 pt-4">
+        <div className="border-b border-neutral-400 pb-6 pt-12">
             <h2 className="my-2 text-center text-4xl">Contacto</h2>
 
-            <div className="flex flex-wrap items-center space-y-8 py-12 lg:space-y-0">
+            <div className="flex flex-wrap items-center space-y-8 py-8 lg:space-y-0">
                 <div className="w-full lg:w-1/3">
                     <div className="flex flex-col items-center justify-center">
                         <FaLocationDot />

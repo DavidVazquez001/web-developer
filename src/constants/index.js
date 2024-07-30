@@ -8,6 +8,9 @@ import proactividad from '../assets/softSkills/proactividad.svg';
 import empatia from '../assets/softSkills/empatia.svg';
 import problems from '../assets/softSkills/problems.svg';
 
+// Projects
+import jf_aire_y_energia from '../assets/projects/jfaireyenergia_products.png';
+
 export const HERO_CONTENT = `Soy un apasionado desarrollador web y cuento con habilidades sólidas en desarrollo con tecnologías basadas en JavaScript. Mi enfoque se centra en la creación de aplicaciones web modernas y eficientes, con un énfasis en la usabilidad y la experiencia del usuario.`;
 
 export const ABOUT_TEXT = `Para la parte de front-end, manejo diversas herramientas como React.js, Next.js, Bootstrap y Tailwind. En el ámbito del back-end, trabajo con Node.js, específicamente utilizando el framework Express.js. Además, tengo experiencia en la gestión de bases de datos, incluyendo MongoDB, MySQL y PostgreSQL.
@@ -82,11 +85,17 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
     {
-        title: '',
-        image: '',
-        description: '',
-        technologies: [],
-        url: '',
+        title: 'JF Aire y Energía',
+        image: jf_aire_y_energia,
+        description: `He desarrollado una página web para una empresa emergente de aires acondicionados, utilizando tecnologías modernas que garantizan una experiencia de usuario excepcional. 
+        
+        La plataforma ha sido construida con Vite y React, aprovechando React Router para facilitar una navegación fluida entre secciones. Para el diseño del front end, he implementado Tailwind CSS, lo que me ha permitido crear una interfaz atractiva y responsiva que refleja la identidad de la marca. 
+        
+        Además, he optimizado el rendimiento del sitio mediante el uso de componentes de React que renderizan únicamente las partes necesarias, evitando la recarga completa de la página y mejorando la eficiencia en la navegación. La sección de "Productos" incluye un filtrado dinámico que permite a los usuarios encontrar lo que buscan de manera rápida, mientras que en la página de "Inicio" se presentan productos de forma aleatoria para enriquecer la experiencia del usuario.
+        
+        También he dedicado tiempo a la edición profesional de imágenes, asegurando una presentación visual de alta calidad. Todo esto se ha realizado con un enfoque en la experiencia del usuario (UX) y la interfaz de usuario (UI), garantizando una interacción intuitiva y agradable en cada visita.`,
+        technologies: ['HTML5', 'CSS3', 'Tailwind', 'JavaScript', 'React'],
+        url: 'https://jfaireyenergia.com/',
     },
 ];
 

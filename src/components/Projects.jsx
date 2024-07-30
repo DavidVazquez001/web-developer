@@ -6,28 +6,28 @@ const Projects = () => {
     };
 
     return (
-        <div className="border-b border-neutral-400 pb-4 pt-4">
-            <h2 className="py-2 text-center text-4xl">Proyectos</h2>
-
-            <div className="pt-6">
+        <div className="border-b border-neutral-400 py-12">
+            <div className="pt-8">
                 {PROJECTS.map((project, index) => (
-                    <div
-                        key={index}
-                        className="mb-20 flex flex-wrap justify-center lg:space-x-4"
-                    >
-                        <div className="max-h-80 w-full max-w-80 justify-center lg:w-1/4">
+                    <div key={index} className="flex flex-wrap justify-start">
+                        <div className="flex w-full justify-center p-4 lg:w-1/3">
                             <img
                                 src={project.image}
                                 alt={project.title}
-                                className="mb-6 cursor-pointer rounded"
-                                onClick={() => handleImageClick(practice.url)}
+                                className="h-fit w-full cursor-pointer rounded"
+                                onClick={() => handleImageClick(project.url)}
                             />
                         </div>
 
-                        <div className="mt-4 w-full max-w-xl lg:ml-0 lg:mt-0 lg:w-3/4">
-                            <h4 className="mb-2 font-bold">{project.title}</h4>
+                        <div className="mt-4 w-full lg:w-2/3">
+                            <h4 className="text-justify text-xl font-bold">
+                                {project.title}
+                            </h4>
 
-                            <p className="mb-4 text-neutral-300">
+                            <p
+                                className="text-justify text-neutral-300"
+                                style={{ whiteSpace: 'pre-line' }}
+                            >
                                 {project.description}
                             </p>
 
