@@ -6,7 +6,7 @@ const Projects = () => {
     };
 
     return (
-        <div className="border-b border-neutral-400 py-12">
+        <div className="border-b border-neutral-400 py-12 text-lg">
             <div>
                 {PROJECTS.map((project, index) => (
                     <div key={index} className="flex flex-wrap justify-start">
@@ -19,7 +19,7 @@ const Projects = () => {
                             />
                         </div>
 
-                        <div className="mt-4 w-full lg:w-2/3">
+                        <div className="mt-4 w-full space-y-4 lg:w-2/3">
                             <h4 className="text-justify text-xl font-bold">
                                 {project.title}
                             </h4>
@@ -31,11 +31,21 @@ const Projects = () => {
                                 {project.description}
                             </p>
 
+                            <p
+                                className="text-justify text-neutral-300"
+                                style={{ whiteSpace: 'pre-line' }}
+                            >
+                                Fecha de publicación:{' '}
+                                <span className="font-semibold">
+                                    {project.publishDate}
+                                </span>
+                            </p>
+
                             <div className="flex flex-wrap">
                                 {project.technologies.map((tech, techIndex) => (
                                     <span
                                         key={`${index}-${techIndex}`}
-                                        className="mr-2 mt-4 rounded bg-indigo-800 px-2 py-1 text-sm font-medium text-pink-200"
+                                        className="mr-2 rounded bg-indigo-800 px-2 py-1 text-sm font-medium text-pink-200"
                                     >
                                         {tech}
                                     </span>

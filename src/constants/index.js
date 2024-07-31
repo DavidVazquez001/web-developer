@@ -25,7 +25,7 @@ export const EXPERIENCES = [
         duration: '4 años y 8 meses',
         roles: [
             {
-                period: '01/noviembre/2023 – 19/marzo/2024',
+                period: '01/noviembre/2023 - 19/marzo/2024',
                 role: 'Junior Software Engineer',
                 description:
                     'Identificación de catálogos en los distritos sistemas (programas COBOL, arquitectura center, Abinitio, etc.) de Citi Banamex',
@@ -33,7 +33,7 @@ export const EXPERIENCES = [
                 technologies: ['COBOL'],
             },
             {
-                period: '27/marzo/2023 – 27/octubre/2023 ',
+                period: '27/marzo/2023 - 27/octubre/2023 ',
                 role: 'Junior Software Engineer',
                 description:
                     'Desarrollador Java de Apis para el cliente Movistar. Me desempeñe como desarrollador de Java, encargándome tanto de la creación de nuevas funcionalidades como del mantenimiento de proyectos previamente desarrollados. Trabajo en estrecha colaboración con el cliente para comprender y atender sus requerimientos en constante cambio. Mi labor incluye la realización de pruebas exhaustivas y la documentación de cada etapa del proceso, garantizando la calidad y el correcto funcionamiento de las soluciones implementadas. Además, participó activamente en los despliegues, donde respondo de manera oportuna ante cualquier inconveniente que pueda surgir, asegurando entregas sin problemas y cumpliendo con los estándares de calidad en nuestros proyectos.',
@@ -41,7 +41,7 @@ export const EXPERIENCES = [
                 technologies: ['Java', 'MySQL'],
             },
             {
-                period: '07/septiembre/2020 – 10/marzo/2023',
+                period: '07/septiembre/2020 - 10/marzo/2023',
                 role: 'Solutions Assistant',
                 description:
                     'Implementación del sistema everilion con el cliente Shell. Garantizar la apertura de nuevas estaciones de gasolina y/o tiendas de autoservicio. Configuración de equipo volumétrico y conexión a los dispensarios (Bennett, Gilbarco, Wayne, TEAM y Petrotec). Gestión de la entrega de los equipos de cómputo a las estaciones. Actualización de software de control volumétrico. Soporte a incidencias relacionadas con hardware. Apoyo en procesos de resolución de incidencias para soporte en sitio, mesa de ayuda y gestión de control de cambios. Responsable de laboratorios de prueba. Control de inventario y planeación de equipos destinados a próximas aperturas.',
@@ -49,7 +49,7 @@ export const EXPERIENCES = [
                 technologies: ['Everilion'],
             },
             {
-                period: '01/agosto/2019 – 07/julio/2020',
+                period: '01/agosto/2019 - 07/julio/2020',
                 role: 'Solutions Assistant',
                 description:
                     'Análisis de códigos fuente para la preparación de la apertura del próximo proyecto en COBOL.',
@@ -64,7 +64,7 @@ export const EXPERIENCES = [
         duration: '1 año y 11 meses',
         roles: [
             {
-                period: '23/octubre/2017 – 15/noviembre/2018',
+                period: '23/octubre/2017 - 15/noviembre/2018',
                 role: 'PMO Analyst',
                 description:
                     'Seguimiento de la oficina de PMO y Control de cambios de la empresa. Seguimiento al procedimiento de control de cambios a aplicaciones e infraestructura. Creación de la política y procedimiento del control de cambios a aplicaciones e infraestructura. Seguimiento de la documentación de los incidentes P1, P2 y P3. Seguimiento del Scorecard de Control de cambio a aplicaciones (CCAs).',
@@ -72,7 +72,7 @@ export const EXPERIENCES = [
                 technologies: [],
             },
             {
-                period: '12/diciembre/2016 – 20/octubre/2017',
+                period: '12/diciembre/2016 - 20/octubre/2017',
                 role: 'Trainee',
                 description:
                     'Creación de la política y procedimiento del control de cambios a aplicaciones e infraestructura. Seguimiento al procedimiento de control de cambios a aplicaciones e infraestructura. Seguimiento de la documentación de los incidentes P1, P2 y P3. Control del Scorecard de cambio a aplicaciones (CCAs).',
@@ -87,13 +87,14 @@ export const PROJECTS = [
     {
         title: 'JF Aire y Energía',
         image: jf_aire_y_energia,
-        description: `He desarrollado una página web para una empresa emergente de aires acondicionados, utilizando tecnologías modernas que garantizan una experiencia de usuario excepcional. 
+        description: `He desarrollado una página web para una empresa emergente de aires acondicionados, utilizando tecnologías modernas que garantizan una experiencia de usuario excepcional.
         
         La plataforma ha sido construida con Vite y React, aprovechando React Router para facilitar una navegación fluida entre secciones. Para el diseño del front end, he implementado Tailwind CSS, lo que me ha permitido crear una interfaz atractiva y responsiva que refleja la identidad de la marca. 
         
         Además, he optimizado el rendimiento del sitio mediante el uso de componentes de React que renderizan únicamente las partes necesarias, evitando la recarga completa de la página y mejorando la eficiencia en la navegación. La sección de "Productos" incluye un filtrado dinámico que permite a los usuarios encontrar lo que buscan de manera rápida, mientras que en la página de "Inicio" se presentan productos de forma aleatoria para enriquecer la experiencia del usuario.
         
         También he dedicado tiempo a la edición profesional de imágenes, asegurando una presentación visual de alta calidad. Todo esto se ha realizado con un enfoque en la experiencia del usuario (UX) y la interfaz de usuario (UI), garantizando una interacción intuitiva y agradable en cada visita.`,
+        publishDate: '30-julio-2024',
         technologies: ['HTML5', 'CSS3', 'Tailwind', 'JavaScript', 'React'],
         url: 'https://jfaireyenergia.com/',
     },

@@ -29,12 +29,12 @@ const Experience = () => {
                                     key={`${index}-${roleIndex}`}
                                     className="mt-8 flex w-full flex-wrap"
                                 >
-                                    <div className="w-full text-justify text-neutral-300 lg:w-1/3">
+                                    <div className="w-full text-justify text-xl text-neutral-300 lg:w-1/3">
                                         {role.period}
                                     </div>
 
                                     <div className="w-full lg:w-2/3">
-                                        <div className="text-justify font-bold text-neutral-100">
+                                        <div className="text-justify text-xl font-bold text-neutral-100">
                                             {role.role}
                                         </div>
                                         <div className="text-justify text-neutral-300">

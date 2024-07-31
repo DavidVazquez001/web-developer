@@ -11,21 +11,21 @@ const Contact = () => {
             <div className="flex flex-wrap items-center space-y-8 py-8 lg:space-y-0">
                 <div className="w-full lg:w-1/3">
                     <div className="flex flex-col items-center justify-center">
-                        <FaLocationDot />
+                        <FaLocationDot className="text-3xl" />
                         <div>{CONTACT.address}</div>
                     </div>
                 </div>
 
                 <div className="w-full lg:w-1/3">
                     <div className="flex flex-col items-center justify-center">
-                        <FaPhoneSquare />
+                        <FaPhoneSquare className="text-3xl" />
                         <div>{CONTACT.phoneNo}</div>
                     </div>
                 </div>
 
                 <div className="w-full lg:w-1/3">
                     <div className="flex flex-col items-center justify-center">
-                        <IoMdMail />
+                        <IoMdMail className="text-3xl" />
                         <div>{CONTACT.email}</div>
                     </div>
                 </div>

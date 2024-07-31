@@ -19,7 +19,7 @@ const Home = () => {
             <div className="container mx-auto px-8">
                 <Navbar />
 
-                <div className="pt-[104px]">
+                <div className="pt-[104px] text-lg">
                     <Hero />
                     <Contact />
                     <About />
