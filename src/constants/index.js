@@ -13,7 +13,7 @@ import jf_aire_y_energia from '../assets/projects/jfaireyenergia_products.png';
 
 export const HERO_CONTENT = `Soy un apasionado desarrollador web y cuento con habilidades sólidas en desarrollo con tecnologías basadas en JavaScript. Mi enfoque se centra en la creación de aplicaciones web modernas y eficientes, con un énfasis en la usabilidad y la experiencia del usuario.`;
 
-export const ABOUT_TEXT = `Para la parte de front-end, manejo diversas herramientas como React.js, Bootstrap y Tailwind. En el ámbito del back-end, trabajo con Node.js, específicamente utilizando el framework Express.js. Además, tengo experiencia en la gestión de bases de datos, incluyendo MongoDB, MySQL y PostgreSQL.
+export const ABOUT_TEXT = `Para la parte de frontend, manejo diversas herramientas como React.js, Bootstrap y Tailwind. En el ámbito del backend, trabajo con Node.js, específicamente utilizando el framework Express.js. Tengo experiencia en la gestión de bases de datos, incluyendo MongoDB, MySQL y PostgreSQL.
 
 Cuento con habilidades bilingües que me permiten comunicarme efectivamente en inglés, facilitando la colaboración en entornos internacionales.
 
@@ -28,7 +28,7 @@ export const EXPERIENCES = [
                 period: '01/noviembre/2023 - 19/marzo/2024',
                 role: 'Junior Software Engineer',
                 description:
-                    'Identificación de catálogos en los distritos sistemas (programas COBOL, arquitectura center, Abinitio, etc.) de Citi Banamex',
+                    'Identificación de catálogos en los distintos sistemas (programas COBOL, arquitectura center, Abinitio, etc.) de Citi Banamex',
                 client: 'Citi Banamex',
                 technologies: ['COBOL'],
             },
@@ -36,7 +36,7 @@ export const EXPERIENCES = [
                 period: '27/marzo/2023 - 27/octubre/2023 ',
                 role: 'Junior Software Engineer',
                 description:
-                    'Desarrollador Java de Apis para el cliente Movistar. Me desempeñe como desarrollador de Java, encargándome tanto de la creación de nuevas funcionalidades como del mantenimiento de proyectos previamente desarrollados. Trabajo en estrecha colaboración con el cliente para comprender y atender sus requerimientos en constante cambio. Mi labor incluye la realización de pruebas exhaustivas y la documentación de cada etapa del proceso, garantizando la calidad y el correcto funcionamiento de las soluciones implementadas. Además, participó activamente en los despliegues, donde respondo de manera oportuna ante cualquier inconveniente que pueda surgir, asegurando entregas sin problemas y cumpliendo con los estándares de calidad en nuestros proyectos.',
+                    'Desarrollador Java de Apis para el cliente Movistar. Me desempeñé como desarrollador de Java, encargándome tanto de la creación de nuevas funcionalidades como del mantenimiento de proyectos previamente desarrollados. Trabajo en estrecha colaboración con el cliente para comprender y atender sus requerimientos en constante cambio. Mi labor incluye la realización de pruebas exhaustivas y la documentación de cada etapa del proceso, garantizando la calidad y el correcto funcionamiento de las soluciones implementadas. Participé activamente en los despliegues, donde respondí de manera oportuna ante cualquier inconveniente que pueda surgir, asegurando entregas sin problemas y cumpliendo con los estándares de calidad en nuestros proyectos',
                 client: 'Telefónica Movistar',
                 technologies: ['Java', 'MySQL'],
             },
@@ -91,7 +91,7 @@ export const PROJECTS = [
         
         La plataforma ha sido construida con Vite y React, aprovechando React Router para facilitar una navegación fluida entre secciones. Para el diseño del front end, he implementado Tailwind CSS, lo que me ha permitido crear una interfaz atractiva y responsiva que refleja la identidad de la marca. 
         
-        Además, he optimizado el rendimiento del sitio mediante el uso de componentes de React que renderizan únicamente las partes necesarias, evitando la recarga completa de la página y mejorando la eficiencia en la navegación. La sección de "Productos" incluye un filtrado dinámico que permite a los usuarios encontrar lo que buscan de manera rápida, mientras que en la página de "Inicio" se presentan productos de forma aleatoria para enriquecer la experiencia del usuario.
+        He optimizado el rendimiento del sitio mediante el uso de componentes de React que renderizan únicamente las partes necesarias, evitando la recarga completa de la página y mejorando la eficiencia en la navegación. La sección de "Productos" incluye un filtrado dinámico que permite a los usuarios encontrar lo que buscan de manera rápida, mientras que en la página de "Inicio" se presentan productos de forma aleatoria para enriquecer la experiencia del usuario.
         
         También he dedicado tiempo a la edición profesional de imágenes, asegurando una presentación visual de alta calidad. Todo esto se ha realizado con un enfoque en la experiencia del usuario (UX) y la interfaz de usuario (UI), garantizando una interacción intuitiva y agradable en cada visita.`,
         publishDate: '30-julio-2024',

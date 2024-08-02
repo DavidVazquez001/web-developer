@@ -7,7 +7,7 @@ const Practices = () => {
 
     return (
         <div className="border-b border-neutral-400 py-12">
-            <h2 className="pt-2 text-center text-4xl">Practicas</h2>
+            <h2 className="pt-2 text-center text-4xl">Prácticas</h2>
 
             <div className="pt-8">
                 {PRACTICES.map((practice, index) => (
