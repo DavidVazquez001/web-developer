@@ -45,7 +45,7 @@ const Experience = () => {
                                                 Cliente: {role.client}
                                             </div>
                                         )}
-                                        <div>
+                                        <div className="flex flex-row flex-wrap">
                                             {role.technologies &&
                                                 role.technologies.map(
                                                     (tech, techIndex) => (

@@ -11,13 +11,9 @@ import problems from '../assets/softSkills/problems.svg';
 // Projects
 import jf_aire_y_energia from '../assets/projects/jfaireyenergia_products.png';
 
-export const HERO_CONTENT = `Soy un apasionado desarrollador web y cuento con habilidades sólidas en desarrollo con tecnologías basadas en JavaScript. Mi enfoque se centra en la creación de aplicaciones web modernas y eficientes, con un énfasis en la usabilidad y la experiencia del usuario.`;
+export const HERO_CONTENT = `Soy un desarrollador de software apasionado por la programación y el desarrollo de soluciones tecnológicas innovadoras. Me entusiasma crear aplicaciones que no solo sean funcionales, sino que también ofrezcan una experiencia de usuario excepcional. Mi enfoque abarca tanto el desarrollo frontend como el backend, lo que me permite tener una visión integral de los proyectos en los que trabajo.`;
 
-export const ABOUT_TEXT = `Para la parte de frontend, manejo diversas herramientas como React.js, Bootstrap y Tailwind. En el ámbito del backend, trabajo con Node.js, específicamente utilizando el framework Express.js. Tengo experiencia en la gestión de bases de datos, incluyendo MongoDB, MySQL y PostgreSQL.
-
-Cuento con habilidades bilingües que me permiten comunicarme efectivamente en inglés, facilitando la colaboración en entornos internacionales.
-
-Estoy comprometido con el aprendizaje continuo y en busca de desafíos que me permitan seguir creciendo y destacando en el campo del desarrollo web.`;
+export const ABOUT_TEXT = `Disfruto enfrentar desafíos técnicos y aprender nuevas tecnologías que me ayuden a mejorar mis habilidades. Tengo experiencia en la creación de interfaces atractivas y responsivas, así como en la implementación de la lógica del servidor y la gestión de bases de datos. Estoy comprometido con el trabajo en equipo y la colaboración, y busco constantemente oportunidades para contribuir a proyectos dinámicos que me permitan crecer profesionalmente.`;
 
 export const EXPERIENCES = [
     {
@@ -28,7 +24,7 @@ export const EXPERIENCES = [
                 period: '01/noviembre/2023 - 19/marzo/2024',
                 role: 'Junior Software Engineer',
                 description:
-                    'Identificación de catálogos en los distintos sistemas (programas COBOL, arquitectura center, Abinitio, etc.) de Citi Banamex',
+                    'Realicé un análisis exhaustivo de los sistemas COBOL existentes para identificar y catalogar diferentes tipos de catálogos utilizados, como tablas de referencia, parámetros de configuración y archivos maestros. Trabajé en estrecha colaboración con analistas funcionales y expertos en el dominio para comprender el propósito y la estructura de cada catálogo identificado. Desarrollé un plan para normalizar y homologar los catálogos, estableciendo estándares comunes para la nomenclatura, estructura de datos y reglas de validación.',
                 client: 'Citi Banamex',
                 technologies: ['COBOL'],
             },
@@ -36,9 +32,16 @@ export const EXPERIENCES = [
                 period: '27/marzo/2023 - 27/octubre/2023 ',
                 role: 'Junior Software Engineer',
                 description:
-                    'Desarrollador Java de Apis para el cliente Movistar. Me desempeñé como desarrollador de Java, encargándome tanto de la creación de nuevas funcionalidades como del mantenimiento de proyectos previamente desarrollados. Trabajo en estrecha colaboración con el cliente para comprender y atender sus requerimientos en constante cambio. Mi labor incluye la realización de pruebas exhaustivas y la documentación de cada etapa del proceso, garantizando la calidad y el correcto funcionamiento de las soluciones implementadas. Participé activamente en los despliegues, donde respondí de manera oportuna ante cualquier inconveniente que pueda surgir, asegurando entregas sin problemas y cumpliendo con los estándares de calidad en nuestros proyectos',
+                    'Desarrollador de APIs en Java para el cliente Movistar. Me desempeñé como desarrollador, encargándome de la creación de nuevas funcionalidades y del mantenimiento de proyectos previamente desarrollados. Trabajé en estrecha colaboración con el cliente para comprender y atender sus requerimientos en constante cambio. Mi labor incluyó la realización de pruebas exhaustivas y la documentación de cada etapa del proceso, garantizando la calidad y el correcto funcionamiento de las soluciones implementadas. Participé activamente en los despliegues, respondiendo de manera oportuna ante cualquier inconveniente, asegurando entregas sin problemas y cumpliendo con los estándares de calidad en nuestros proyectos.',
                 client: 'Telefónica Movistar',
-                technologies: ['Java', 'MySQL'],
+                technologies: [
+                    'Java',
+                    'MySQL',
+                    'JavaScript',
+                    'React',
+                    'Node.js',
+                    'Express.js',
+                ],
             },
             {
                 period: '07/septiembre/2020 - 10/marzo/2023',
@@ -52,7 +55,7 @@ export const EXPERIENCES = [
                 period: '01/agosto/2019 - 07/julio/2020',
                 role: 'Solutions Assistant',
                 description:
-                    'Análisis de códigos fuente para la preparación de la apertura del próximo proyecto en COBOL.',
+                    'Realicé un análisis exhaustivo del código fuente existente en COBOL para identificar áreas de mejora y oportunidades de optimización. Identifiqué secciones de código redundantes, ineficientes o difíciles de mantener, y propuse soluciones para mejorar la calidad y rendimiento del código. Documenté detalladamente los hallazgos del análisis de código, incluyendo descripciones de problemas, impacto en el sistema y posibles soluciones.',
                 client: 'Citi Banamex',
                 technologies: ['COBOL'],
             },
@@ -67,7 +70,7 @@ export const EXPERIENCES = [
                 period: '23/octubre/2017 - 15/noviembre/2018',
                 role: 'PMO Analyst',
                 description:
-                    'Seguimiento de la oficina de PMO y Control de cambios de la empresa. Seguimiento al procedimiento de control de cambios a aplicaciones e infraestructura. Creación de la política y procedimiento del control de cambios a aplicaciones e infraestructura. Seguimiento de la documentación de los incidentes P1, P2 y P3. Seguimiento del Scorecard de Control de cambio a aplicaciones (CCAs).',
+                    'Seguimiento de la oficina de PMO y Control de cambios de la empresa. Seguimiento al procedimiento de control de cambios a aplicaciones e infraestructura. Actualización del procedimiento de control de cambios mejorando el proceso y haciéndolo más eficiente para la cultura empresarial. Seguimiento de la documentación de los incidentes P1, P2 y P3. Seguimiento del Scorecard de Control de cambio a aplicaciones (CCAs).',
                 client: '',
                 technologies: [],
             },

@@ -37,7 +37,7 @@ const Navbar = () => {
 
     return (
         <nav className="fixed left-0 top-0 z-50 flex w-full items-center justify-between bg-transparent px-8 py-6 backdrop-blur-lg md:px-16 lg:px-28">
-            <div className="flex flex-shrink-0 items-center">
+            <div className="flex flex-shrink-0">
                 <img
                     src={logo}
                     alt="logo"
@@ -46,13 +46,14 @@ const Navbar = () => {
                 />
             </div>
 
-            <div>
-                <a className="text-3xl lg:text-5xl" href="/portafolio">
+            <div className="flex items-center justify-center gap-4 text-2xl">
+                <a
+                    className="border px-2 text-3xl lg:text-3xl"
+                    href="/portafolio"
+                >
                     Portafolio
                 </a>
-            </div>
 
-            <div className="flex items-center justify-center gap-4 text-2xl">
                 <a href="#" onClick={openWhatsApp}>
                     <FaWhatsapp />
                 </a>
