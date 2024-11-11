@@ -36,7 +36,7 @@ const Navbar = () => {
     };
 
     return (
-        <nav className="fixed left-0 top-0 z-50 flex w-full items-center justify-between bg-transparent px-8 py-6 backdrop-blur-lg md:px-16 lg:px-28">
+        <nav className="fixed left-0 top-0 z-50 flex w-full items-center justify-between bg-transparent px-2 py-6 backdrop-blur-lg md:px-16 lg:px-28">
             <div className="flex flex-shrink-0">
                 <img
                     src={logo}
@@ -48,7 +48,7 @@ const Navbar = () => {
 
             <div className="flex items-center justify-center gap-4 text-2xl">
                 <a
-                    className="border px-2 text-3xl lg:text-3xl"
+                    className="rounded-lg border px-2 text-3xl lg:text-3xl"
                     href="/portafolio"
                 >
                     Portafolio

@@ -90,15 +90,30 @@ export const PROJECTS = [
     {
         title: 'JF Aire y Energía',
         image: jf_aire_y_energia,
-        description: `He desarrollado una página web para una empresa emergente de aires acondicionados, utilizando tecnologías modernas que garantizan una experiencia de usuario excepcional.
+        description: `Desarrollé una página web para una empresa emergente de aires acondicionados, utilizando tecnologías modernas para brindar una experiencia de usuario excepcional.
         
-        La plataforma ha sido construida con Vite y React, aprovechando React Router para facilitar una navegación fluida entre secciones. Para el diseño del front end, he implementado Tailwind CSS, lo que me ha permitido crear una interfaz atractiva y responsiva que refleja la identidad de la marca. 
+        La plataforma se ha construido con Next.js como base de desarrollo, MongoDB para la gestión de información de productos, Cloudinary para almacenar imágenes en la nube y EmailJS para el envío de correos electrónicos.
         
-        He optimizado el rendimiento del sitio mediante el uso de componentes de React que renderizan únicamente las partes necesarias, evitando la recarga completa de la página y mejorando la eficiencia en la navegación. La sección de "Productos" incluye un filtrado dinámico que permite a los usuarios encontrar lo que buscan de manera rápida, mientras que en la página de "Inicio" se presentan productos de forma aleatoria para enriquecer la experiencia del usuario.
+        Para el diseño del frontend, implementé Tailwind CSS, creando una interfaz atractiva y responsiva que refleja la identidad de la marca, complementada con librerías como Framer Motion, Headless UI y Heroicons.
         
-        También he dedicado tiempo a la edición profesional de imágenes, asegurando una presentación visual de alta calidad. Todo esto se ha realizado con un enfoque en la experiencia del usuario (UX) y la interfaz de usuario (UI), garantizando una interacción intuitiva y agradable en cada visita.`,
+        Optimizé el rendimiento mediante componentes de React que renderizan únicamente las secciones necesarias, evitando recargas completas de la página y mejorando la eficiencia en la navegación.
+        
+        Además, realicé una edición cuidadosa de las imágenes para asegurar una presentación visual de alta calidad. Todo se ha desarrollado con un enfoque centrado en la experiencia del usuario (UX) y la interfaz de usuario (UI), garantizando una interacción intuitiva y atractiva en cada visita.`,
         publishDate: '30-julio-2024',
-        technologies: ['HTML5', 'CSS3', 'Tailwind', 'JavaScript', 'React'],
+        technologies: [
+            'HTML5',
+            'CSS3',
+            'Tailwind CSS',
+            'JavaScript',
+            'Next.js',
+            'React',
+            'MongoDB',
+            'Cloudinary',
+            'EmailJS',
+            'Framer Motion',
+            'Headless UI',
+            'Heroicons',
+        ],
         url: 'https://jfaireyenergia.com/',
     },
 ];

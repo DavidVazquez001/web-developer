@@ -41,11 +41,11 @@ const Projects = () => {
                                 </span>
                             </p>
 
-                            <div className="flex flex-wrap">
+                            <div className="flex flex-wrap gap-2">
                                 {project.technologies.map((tech, techIndex) => (
                                     <span
                                         key={`${index}-${techIndex}`}
-                                        className="mr-2 rounded bg-indigo-800 px-2 py-1 text-sm font-medium text-pink-200"
+                                        className="rounded bg-indigo-800 px-2 py-1 text-sm font-medium text-pink-200"
                                     >
                                         {tech}
                                     </span>
